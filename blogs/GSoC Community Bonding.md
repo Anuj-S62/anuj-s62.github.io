@@ -34,6 +34,9 @@ By offering various project sizes, GSoC ensures that students with different lev
 
 ### Community Bonding Period
 During this period, I:
+
 - Talked to mentors Jan-Simon Möller, Scott Murray, and Walt Miner.
+
 - Researched Whisper AI Containerization.
+
 - Set up and tested the previous build of the AGL Voice Assistant.

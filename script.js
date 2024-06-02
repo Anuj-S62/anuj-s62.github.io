@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { filename: 'GSoC Community Bonding.md', name: 'GSoC Community Bonding' },
         
     ];
-    const blogImages = ['blogs/agl.png', 'blogs/agl.png'];
+    const blogImages = ['blogs/agl2.png', 'blogs/agl2.png'];
 
     // Function to load a blog
     function loadBlog(index) {
