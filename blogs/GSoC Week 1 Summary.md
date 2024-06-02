@@ -31,7 +31,9 @@ Welcome to my Week 1 summary of my Google Summer of Code (GSoC) journey. This we
 ## Useful Resources
 
 - [meta-offline-voice-agent by malik727](https://github.com/malik727/meta-agl-devel/tree/master/meta-offline-voice-agent)
+
 - [recipes-ml by t-kuha](https://github.com/t-kuha/recipes-ml)
+
 - [OpenEmbedded Layer Index](https://layers.openembedded.org/layerindex/branch/master/layers/)
 
 ## Conclusion
