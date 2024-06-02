@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #b0b0b0;
+}
+
+.sidebar ul li:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
+
+.sidebar ul li.active {
+    background-color: #444;
+    color: #ffffff;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #212121;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#blogHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#blogImage {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+#authorName {
+    margin-top: 10px;
+    color: #1e90ff;
+}
+
+#blogContent {
+    animation: fadeIn 0.5s;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+a {
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #00bfff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #d3d3d3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #c0c0c0;
+}
+
+code {
+    background-color: #2e2e2e;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #ffeb3b;
+}
+
+pre {
+    background-color: #2e2e2e;
+    padding: 10px;
+    border-r: 4px;
+}
