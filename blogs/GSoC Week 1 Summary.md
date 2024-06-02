@@ -8,7 +8,7 @@ Welcome to my Week 1 summary of my Google Summer of Code (GSoC) journey. This we
 
 ## Tasks I Have Completed This Week
 
-- **Setup the AGL master branch on the remote server**: Followed the steps on [AGL Documentation](https://docs.automotivelinux.org/en/quillback/#01_Getting_Started/02_Building_AGL_Image/07_Building_for_x86_%28Emulation_and_Hardware%29/) to build the AGL image.
+- **Setup the AGL master branch on the remote server**: Followed the steps on [AGL Documentation](https://docs.automotivelinux.org/en/quillback/#01_Getting_Started/02_Building_AGL_Image/03_Downloading_AGL_Software/) to build the AGL image.
 
 - **Started creating the Yocto recipes for Whisper AI** and successfully created the recipes for:
     - `python3-torch`
