@@ -23,8 +23,6 @@ This week, I made significant progress in integrating Whisper AI into the AGL (A
 
 ## Issues Faced:
 
-- Encountered architecture-related issues in the previous PyTorch recipe.
-
 - Faced a dependency issue with llvmlite: llvmlite requires LLVM 14, while AGL uses LLVM 18. I resolved this by using a precompiled wheel for llvmlite.
 
 ## Next Week Tasks:
