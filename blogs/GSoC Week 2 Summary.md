@@ -23,7 +23,7 @@ This week, I made significant progress in integrating Whisper AI into the AGL (A
 
 ## Issues Faced:
 
-- Faced a dependency issue with llvmlite: llvmlite requires LLVM 14, while AGL uses LLVM 18. I resolved this by using a precompiled wheel for llvmlite.
+Faced a dependency issue with llvmlite: llvmlite requires LLVM 14, while AGL uses LLVM 18. I resolved this by using a precompiled wheel for llvmlite.
 
 ## Next Week Tasks:
 
