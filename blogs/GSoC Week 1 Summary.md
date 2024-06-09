@@ -12,12 +12,11 @@ Welcome to my Week 1 summary of my Google Summer of Code (GSoC) journey. This we
 
 - **Started creating the Yocto recipes for Whisper AI** and successfully created the recipes for:
     - `python3-torch`
-    - `python3-numba`
+    - `python3-numpy`
     - `python3-tiktoken`
     - `sleef`
     - `python3-more-itertools`
     - `python3-tqdm`
-    - `python3-numpy`
 
 ## Issues Faced
 

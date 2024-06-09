@@ -6,11 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // List of blog files and their corresponding names
     const blogs = [
+        { filename: 'GSoC Week 2 Summary.md', name: 'GSoC Week 2 Summary' },
         { filename: 'GSoC Week 1 Summary.md', name: 'GSoC Week 1 Summary' },
         { filename: 'GSoC Community Bonding.md', name: 'GSoC Community Bonding' },
         
     ];
-    const blogImages = ['blogs/agl2.png', 'blogs/agl2.png'];
+    const blogImages = ['blogs/agl2.png','blogs/agl2.png', 'blogs/agl2.png'];
 
     // Function to load a blog
     function loadBlog(index) {
